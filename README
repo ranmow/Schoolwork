@@ -11,3 +11,34 @@ report by myself and the robotics senior project report was 95% me (team
 members offered bullet points describing what they did, I translated
 them into prose :) ). The senior project report's more interesting,
 but the 3002 report is a bit more digestable.
+
+CS4233: Object-Oriented Analysis and Design
+This class taught me the principles of good program design. We covered
+design patterns, test driven development, and documentation principles.
+We had to expand our code every week, so I quickly learned the value of
+writing maintainable, extendable code. Though a couple functions became
+monolithic, overall I'm very proud of this work.
+
+RBE3002: Mobile Robots
+This class taught me how to teach a robot to move around in the world.
+We covered SLAM, frontier-based mapping, and path-planning techniques.
+It was also my first experience with ROS. The documentation style used
+in this code is derived from doxygen (doxypypy). It wasn't a component
+of the class, but I picked up the style from my internship at iRobot
+and fell in love with it :)
+
+Robotics Senior Project - Enabling Semi-Autonomous Manipulation on
+iRobot's PackBot
+This is the biggest project I've ever done. First, we modelled PackBot
+within the Open Robotics Automation Virtual Environment (openRAVE).
+This is an extremely roboust and capable motion-planning and simulation
+library developed at CMU. We used it to generate IK solutions and traj-
+ectories for packbot's 5DOF arm. Next, we incorporated a primesense-based
+sensor to recognize obstacles and cylindrical objects in the environment.
+We used obstacles in collision-avoidance for path-planning and cylinders
+as grasp targets. We incorporated our system into a click-to-grasp UI
+that could reduce the workload required for packbot operators in the
+field. Since packbot is often used in battlefields and disaster zones
+and is quite difficult to control, this could be very valuable if it
+is incorporated into PackBot's OS.
+Demo: http://youtu.be/yf1A9GfUjwY
