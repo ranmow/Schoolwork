@@ -22,11 +22,6 @@ from geometry_msgs.msg import Pose2D
 from nav_msgs.msg import Odometry
 from kobuki_msgs.msg import BumperEvent
 
-'''
-ToDo:
-    - Create publishTist(u,w), and z 
-    - spinWheels(u1, u2, time)
-'''
 
 class RobotOdometry(object):
     '''
