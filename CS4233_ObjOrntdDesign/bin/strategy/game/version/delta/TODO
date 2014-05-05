@@ -1,0 +1,48 @@
+
+Board:
+	X Implement larger board size
+	X Implement more choke points
+
+Pieces:
+x	Allow all piece types to be used
+x		-1 marshal	12
+x		 1 general	11
+x		 2 colonels	10
+x		 3 majors	9
+x		 4 captains	8
+x		 4 lieuts	7
+x		 4 sgts		6
+x		 5 miners	5
+x		 8 scouts	4
+x		 1 spy	    3
+x		 6 bombs	2
+x		 1 flag		1
+
+	
+		X-Implement bombs
+		X	-Miners can defeat bombs
+			X-When a bomb wins a battle, it does not move
+			X- Bombs do not move
+		X-Implement spy functionality
+		X	- Spy is lowest rank EXCEPT if he attacks a marshall. If the spy attacks a marshall, the marshall loses.
+		X	- If a marshal attacks a spy, the spy loses
+		X-Implement scout
+		X	- Scout can move any number of places
+		X		- If he moves >1 space, he cannot attack in the same turn
+
+Tests:
+x non-miner piece attacks bomb -> non-miner piece dies (bomb does NOT explode, we think)
+x miner attacks bomb -> bomb dies
+x scout moves more than one place, to unoccupied square -> OK
+x scout moves more than one place, to occupied square -> exception
+x spy attacks marshal -> spy wins
+x bomb moves -> exception
+place:
+	>1 general
+	>3 majors
+	>5 miners
+	>8 scouts
+	>1 spy
+	>6 bombs
+		-> exception
+surround flag with bombs, miners die -> win

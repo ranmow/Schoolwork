@@ -1,0 +1,36 @@
+Overview: (things that need implementation IN THIS ORDER):
+make beta strategy game with configurations
+	Test inappropriate configurations
+		[X] Test for not null
+		[X] Test for too many of a certain number of pieces
+		[X] Test not enough pieces configured
+		[X] Test that multiple pieces are not occupying same location
+		[X] Test for correct number of each type of piece
+		[X] Test appropriate locations set
+		
+[X] Need to remove a piece once it has been defeated
+		
+Legal moves of each piece
+	[X]Test for a valid move (?)
+	[X]Test that red cannot move out of turn
+	[X]Test that blue cannot move out of turn
+	[X]Test for invalid x-coord in from (I think I got these? I check if the square is off the board)
+	[X]Test for invalid y-coord in from
+	[X]Test for invalid x-coord in to
+	[X]Test for invalid y-coord in to
+	[X] Test for moving two squares
+	[X] Test for moving off the board
+	[X] Test for no diagonal moves
+	[X] Test for no moving over pieces unless to attack
+	[X] Test that flag does not get moved
+	[X] Test for second move before re-initialization, throw exception -- (what does this mean?)
+Legal attacks of each piece
+	[x] Test if attacking your own piece
+	[X]Test for attacking piece winning
+	[X] Test for attacking piece losing
+	[X] Test for draw
+	[X] Removing piece(s) after attacks
+	Test for attacking the opponent's Flag; win. 
+Test draw, red wins, and blue wins
+[X] After 12 moves, DRAW
+Play multiple games
