@@ -17,7 +17,9 @@ This class taught me the principles of good program design. We covered
 design patterns, test driven development, and documentation principles.
 We had to expand our code every week, so I quickly learned the value of
 writing maintainable, extendable code. Though a couple functions became
-monolithic, overall I'm very proud of this work.
+monolithic, overall I'm very proud of this work. Everything has 90-97%
+code coverage and full javadoc documentation. Coverage was required,
+javadoc was not :)
 
 RBE3002: Mobile Robots
 This class taught me how to teach a robot to move around in the world.
